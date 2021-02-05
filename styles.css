@@ -8879,11 +8879,36 @@ select {
   .d-print-none {
     display: none !important;
   }
+}.img-fluid {
+  max-width: 100%;
+  height: auto;
+}.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}.figure {
+  display: inline-block;
+}.figure-img {
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}.figure-caption {
+  font-size: 0.875em;
+  color: #6c757d;
+}:root, html, body {
+  font-size: 16px;
 }html, body {
   height: 100%;
 }body {
+  background-color: #2f3245;
+  font-family: "Open Sans", sans-serif;
+  color: #eeeeee;
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+}body.mat-typography {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map*/
